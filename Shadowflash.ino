@@ -36,8 +36,7 @@ void setup() {
   
 } // setup
 
-
-// loop through the rainbow colors 
+// fade LED continuously  
 void loop() {
   
     
@@ -53,6 +52,8 @@ void loop() {
     var = var + i;
  
 delay(30);
+ 
+ // SHADOWFLASH 
  
  if(button.isPressed()){
 	var = 0;
